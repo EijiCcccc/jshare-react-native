@@ -146,6 +146,8 @@ typedef void(^JSHARESocialHandler)(JSHARESocialUserInfo *userInfo,NSError *error
  */
 @property (nonatomic, copy) NSString *JChatProAuth;
 
+@property (nonatomic, copy) NSString *universalLink;
+
 @end
 
 @interface JSHAREMessage : NSObject
