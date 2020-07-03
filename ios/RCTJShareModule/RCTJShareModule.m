@@ -204,6 +204,10 @@ RCT_EXPORT_METHOD(setup){
     config.JChatProAuth = param[@"jchatProAuth"];
   }
   
+  if (param[@"universalLink"]) {
+    config.universalLink = param[@"universalLink"];
+  }
+  
   [JSHAREService setupWithConfig:config];
 }
 
